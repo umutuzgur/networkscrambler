@@ -1,5 +1,6 @@
 #/bin/bash
 
+
 if [ "$DEBUG" == 'true' ];
 then
     DEBUG_PARAMS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:1044"
